@@ -1,0 +1,47 @@
+
+@font-face {
+  font-family:"Space Grotesk";
+  src:url("./fonts/SpaceGrotesk-Regular.woff2") format("woff2"),url("./fonts/SpaceGrotesk-Regular.woff") format("woff"),url("./fonts/SpaceGrotesk-Regular.otf") format("opentype");
+  font-style:normal;font-weight:400;font-display:swap;
+}
+@font-face {
+  font-family:"Space Grotesk";
+  src:url("./fonts/SpaceGrotesk-SemiBold.woff2") format("woff2"),url("./fonts/SpaceGrotesk-SemiBold.woff") format("woff"),url("./fonts/SpaceGrotesk-SemiBold.otf") format("opentype");
+  font-style:normal;font-weight:700;font-display:swap;
+}
+
+
+h1, h2, h3, small {
+  line-height: 1.25;
+  color:var(--text-high);
+  letter-spacing: -0.002em;
+  font-weight: bold;
+  margin:0.5em 0;  
+}
+
+p {
+  margin:0;
+  font-size:1rem;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1.5;  
+  color:var(--text-med);
+}
+
+p + p {
+  margin-top:var(--s3);
+}
+
+a {
+  color:var(--primary);
+  font-weight: normal;
+}
+
+h1      { font-size: 2rem; }
+h2      { font-size: 1.75rem; }
+h3      { font-size: 1.25rem; }
+
+p,
+a       { font-size: 1rem; }
+small   { font-size: 0.75rem; }
+      

@@ -1,0 +1,20 @@
+:root {
+  --grey-light:#f0f0f0;
+  --grey:#CACCCE;
+  --primary:#006FFE;
+  --accent:#FEE505;
+
+  --text-low:#8A8E93;
+  --text-med:#4B5158;
+  --text-high:#1C1E21;
+
+  --font-stack:'Space Grotesk', sans-serif;
+
+  --s0:0.5rem;
+  --s1:1rem;
+  --s2:1.5rem;
+  --s3:2rem;
+  --s4:3rem;
+  --s5:5rem;
+  --s6:8rem;
+}
